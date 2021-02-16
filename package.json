@@ -43,7 +43,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contentful-userland/gatsby-contentful-starter.git"
+    "url": "git+https://github.com/skvijay007/digitalsolutions.git"
   },
   "scripts": {
     "dev": "npm run develop",
