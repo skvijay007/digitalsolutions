@@ -1,0 +1,32 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 8vh;
+    max-height: 100px;
+    font-size: 1.25em;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(
+      125deg
+      ,#033067,#1281ae);
+  }
+
+  .navigationItem {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1em;
+    font-size: 14px;
+  }
+  
+  .navigationItem a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.75;
+    padding: 0 12px;
+  }
+
+  .navigationItem a:not(:last-child) {
+    border-right: solid 1px #fff;
+  }

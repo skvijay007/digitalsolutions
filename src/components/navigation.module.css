@@ -7,6 +7,10 @@
   height: 20vh;
   max-height: 100px;
   font-size: 1.25em;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(
+    125deg
+    ,#033067,#1281ae);
 }
 
 .navigationItem {
@@ -16,5 +20,26 @@
 }
 
 .navigationItem a {
-  color: currentColor;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.navigationItem a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.navigationItem a:hover {
+  color: #fff !important;
+  opacity: 1;
+  transition: opacity 0.2s ease,color 0.2s ease;
+}
+
+.navigationItem a:hover::after {
+  width: 100%;
 }
